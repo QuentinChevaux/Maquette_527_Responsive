@@ -1,0 +1,121 @@
+body {
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    border-width: 0px;
+    border-color: #e03d24;
+    border-radius: 0px;
+    font-size: 16px;
+    font-family: 'Biryani',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    background-color: #e03d24;
+    padding-top: 20px;
+    padding-right: 35px;
+    padding-bottom: 17px;
+    padding-left: 35px;
+    display: inline-block;
+}
+
+
+header {
+    background-color: #fa4529;
+    background-image: url(https://149448400.v2.pressablecdn.com/wp-content/uploads/2021/09/agency-334-4.png);
+    background-repeat: no-repeat;
+    background-position: calc(50vw - 100px) calc(50% + 50px);
+
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+header h1 {
+    font-family: 'Biryani',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 900;
+    font-size: 150px;
+    color: #FFFFFF;
+    letter-spacing: -5px;
+    margin-top: 0;
+}
+
+header h2 {
+    font-family: 'Biryani',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5em;
+    color: #FFFFFF;
+}
+
+header h3 {
+    color: #FFFFFF;
+    font-family: 'Biryani',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 1.4em;
+    margin-top: -15%;
+    margin-bottom: 15%;
+}
+
+header hr {
+    background-color: #000000;
+    height: 1px;
+    border: none;
+    max-width: 408px;
+    margin-left: 0;
+}
+
+header p {
+    font-family: 'Sen',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 20px;
+    line-height: 1.6em;
+    color: #000000;
+}
+
+header a {
+    margin-top: 50px;
+}
+
+header a:hover{
+    background-color: #000000;
+    transition: 200ms ease-in;
+}
+
+.header_div_2 {
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+/* .tourne {
+    
+    animation: spin 20s linear infinite;
+}
+
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+} */
