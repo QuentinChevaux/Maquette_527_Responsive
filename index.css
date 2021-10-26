@@ -5,8 +5,15 @@ body {
 }
 
 .flex {
-    display: flex;
+    display: flex;   
+}
+
+.justify_center {
     justify-content: center;
+}
+
+.align_items {
+    align-items: center;
 }
 
 .relative {
@@ -15,6 +22,10 @@ body {
 
 .absolute {
     position: absolute;
+}
+
+.mb100 {
+    margin-bottom: 100px;
 }
 
 a {
@@ -34,6 +45,10 @@ a {
     display: inline-block;
 }
 
+a:hover{
+    background-color: #000000;
+    transition: 200ms ease-in;
+}
 
 header {
     background-color: #fa4529;
@@ -42,7 +57,7 @@ header {
     background-position: calc(50vw - 100px) calc(50% + 50px);
 
     padding-top: 50px;
-    padding-bottom: 200px;
+    padding-bottom: 300px;
 }
 
 header h1 {
@@ -92,18 +107,12 @@ header a {
     margin-top: 50px;
 }
 
-header a:hover{
-    background-color: #000000;
-    transition: 200ms ease-in;
-}
-
 .header_div_2 {
     margin-left: 10%;
     margin-top: 2%;
 }
 
-/* .tourne {
-    
+.tourne {    
     animation: spin 20s linear infinite;
 }
 
@@ -118,4 +127,206 @@ header a:hover{
         -webkit-transform: rotate(360deg); 
         transform:rotate(360deg); 
     } 
-} */
+}
+
+.web_service {
+    width: 75%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.web_service_txt {
+    width: 33%;
+    margin-right: 10%;
+}
+
+.web_service_txt a {
+    margin-top: 5%;
+}
+
+.service_list {
+    width: 66%;
+}
+
+.web_service_txt h2 {
+    font-family: 'Biryani',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: #000000;
+    letter-spacing: -2px;
+    line-height: 1.1em;
+    margin-top: 15%;
+}
+
+.web_service_img {
+    width: 10%;
+    margin-right: 4%;
+}
+
+.service_list h2 {
+    font-family: 'Biryani',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    color: #000000;
+    letter-spacing: -1px;
+    line-height: 1.4em;
+    text-align: left;
+    margin-right: 10%;
+    width: 25%;
+}
+
+.web_service p {
+    color: #666666;
+    font-family: 'Sen',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 15px;
+    line-height: 1.8em;
+    margin-right: 7%;
+}
+.service_list {
+    margin-top: 4%;
+    box-sizing: border-box;
+}
+
+.service_list div {
+    border-top: 2px solid black;
+    padding: 25px;
+    transition: 200ms;
+}
+
+.service_list div:hover {
+    background-color: #f9f9f9;
+    transform: translateX(-20px) translateY(0px);
+    transition: 200ms;
+}
+
+.arrow {
+    width: 2%;
+}
+
+.section_2 {
+    background-color: #f9f9f9;
+    height: 900px;
+}
+
+.section_2_div_1 {
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    padding-top: 3%;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.section_2_div_1 h2 {
+    font-family: 'Biryani',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #000000!important;
+    letter-spacing: -2px;
+    line-height: 1.1em;
+}
+
+.section_2_div_2 {
+    margin: 0 1%;
+}
+
+.section_2_div_2:hover img {
+    filter: grayscale(0%);
+    cursor: pointer;
+    transition: 200ms ease-out;
+}
+
+.section_2_div_2 img {
+    filter: grayscale(100%);
+    transition: 200ms ease-in;
+}
+
+
+.section_2_div_2 p {
+    font-family: 'Sen',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 15px;
+    color: #666666;
+    letter-spacing: 1px;
+    line-height: 1.1em;
+    margin-bottom: -3%;
+}
+
+.section_2_div_2 h2 {
+    font-family: 'Biryani',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: #000000;
+    line-height: 1.9em;
+}
+
+.why_choose_us {
+    background-color: #fa4529;
+    padding-top: 5%;
+}
+
+.why_choose_txt {
+    font-family: 'Biryani',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #000000!important;
+    letter-spacing: -2px;
+    line-height: 1.1em;
+    margin-bottom: 5%;
+    padding-left: 15%;
+}
+
+.wcu_div {
+    width: 75%;
+    margin: auto;
+}
+
+.wcu_div div {
+    margin: 0 5%;
+}
+
+.wcu_div h3 {
+    font-family: 'Biryani',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #000000;
+}
+
+.wcu_div h2 {
+    font-family: 'Biryani',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    color: #FFFFFF;
+    letter-spacing: -1px;
+    line-height: 1.5em;
+}
+
+.wcu_div p {
+    font-family: 'Sen',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    color: #000000;
+}
+
+.box_shadow {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.border {
+    border: 3px solid black;
+
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.border_radius {
+    border: 3px solid white;
+    border-radius: 30px;
+
+    box-sizing: border-box;
+    padding: 20px;
+}
