@@ -330,3 +330,7 @@ header a {
     box-sizing: border-box;
     padding: 20px;
 }
+
+span {
+    border-bottom: 2px solid black;
+}
